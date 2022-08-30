@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(136,55,114,1) 0%, rgba(192,76,113,1) 35%, rgba(252,190,103,1) 100%);   
+}
+
+
+.navbar {    
+    height: 8vh;
+    width: %100;
+    background-color: #020202;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
+h2 {
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+h2:hover {
+    color: deepskyblue;
+}
